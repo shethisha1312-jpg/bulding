@@ -170,3 +170,9 @@ body {
 .title{
     color:#6b5b4d ;
 }
+.spe{
+    color: #6b5b4d;
+}
+.about-image1{
+    image-rendering: large;
+}
