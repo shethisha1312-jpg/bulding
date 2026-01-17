@@ -45,10 +45,12 @@ header nav a:hover {
 }
 
 footer {
-    background: #222;
+    background-color: #6b5b4d ;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 10px;
+    padding-left: 200px;
+    padding-top: 70px;
 } 
 * {
     margin: 0;
@@ -175,4 +177,10 @@ body {
 }
 .about-image1{
     image-rendering: large;
+}
+.title-bar{
+    background:#6b5b4d;
+    padding:40px 0;
+    text-align:center;
+;
 }
