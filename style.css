@@ -75,7 +75,6 @@ footer {
     max-width: 500px;
     border-radius: 4px;
 }
-
 .about-content {
     max-width: 600px;
 }
@@ -119,21 +118,7 @@ h2{
     color: white;
     padding: 70px 140px 70px 140px;
 }
-/* .gardern{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-    gap: 40px;
-    max-width: 1100px;
-    margin: auto;
-}
-.feature-box i{
-    font-size: 36px;
-    margin-bottom: 15px;
-}
-.feature-box p{
-    font-size: 14px;
-    line-height: ;
-} */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -174,13 +159,106 @@ body {
 }
 .spe{
     color: #6b5b4d;
+    margin-bottom: 100px;;
+    text-align: left;
 }
-.about-image1{
-    image-rendering: large;
-}
-.title-bar{
+/* .title-bar{
     background:#6b5b4d;
     padding:40px 0;
     text-align:center;
-;
+    margin-top: 50px;
+
+} */
+ .title-bar{
+    background-color: white;
+ }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #7a6a5a;
+    color: #fff;
+    padding: 40px 60px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-box {
+    flex: 1;
+    min-width: 180px;
+}
+
+.footer-box h4 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer-box p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+hr {
+    margin: 30px 0;
+    border: 0.5px solid #bdbdbd;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+#title-bar{
+    height: 100px;
+    width: 1000px;
+    display: inline-block;
+    border: 2px solid black;
+    
+}
+#container{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+#box1{
+    background-color: #7a6a5a;
+    height:300px;
+    width: 200px;
+}
+#box2{
+    background-color: #7a6a5a;
+    width: 1000px;
+    height: 100px;
+}
+#box3{
+    background-color: #7a6a5a;
+    height:100px ;
+    width: 500px;
 }
